@@ -9,4 +9,4 @@ const PORT=process.env.PORT ||5000
 app.use('/',require('./routes/index'))
 app.use('/users',require('./routes/users'))
 
-app.listen(PORT,console.log('on '+PORT));
+app.listen(PORT);
